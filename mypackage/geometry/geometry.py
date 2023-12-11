@@ -11,4 +11,11 @@ class Line:
         self.p2 = p2
 
     def length(self) -> float:
+        """Calculates the length of the line.
+
+        Args:
+
+        Returns:
+            float: The length of the line.
+        """
         return distance(self.p1, self.p2)
